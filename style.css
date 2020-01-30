@@ -1,0 +1,19 @@
+.btn{font-size:18px; padding:8px 15px 8px 10px;position: relative; border:none; overflow:hidden;}
+.btn samp{display:inline-block; margin-right:20px; position: relative; z-index:1; color:#fff;}
+.btn:before{content:"";position: absolute; top:0; left:0; width:20%; background:#337AB7; height:100%;
+  transition:all ease-in-out 0.5s;  
+}
+.btn span{position: relative; z-index:1;}
+.btn:hover:before{width:100%;}
+.btn:hover span{color:#fff;}
+.new{font-size:14px; padding:10px 15px 8px 10px;position: relative; color:#fff;
+    text-decoration:none; background:#00B2FF; display:inline-block; transition:all ease-in-out 0.5s;
+}
+.new samp{font-family: 'Airl', sans-serif; position: relative; z-index:1;}
+.new::after{content:"";position: absolute; width:100%; height:9%; left:0; bottom:0;
+    background:#BA30FF; transition:all ease-in-out 0.5s;
+}
+.new:hover::after{height:100%; transition:all ease-in-out 0.5s;}
+.new:hover{color:#fff;text-decoration:none;}
+body{background:url(https://i.gifer.com/LDci.gif)}
+h2{color:#fff; font-family: 'Airl', sans-serif;}
